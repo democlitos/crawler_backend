@@ -18,6 +18,9 @@
 !/tmp/pids/
 !/tmp/pids/.keep
 
+# Environment variables
+.env*
+
 .byebug_history
 
 # Ignore master key for decrypting credentials and more.
