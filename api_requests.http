@@ -1,3 +1,4 @@
+# File used to make requests to server (e.g., using Rest Client - vscode)
 @baseUrl = http://localhost:3000
 ###
 
