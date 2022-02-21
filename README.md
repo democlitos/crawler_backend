@@ -20,7 +20,7 @@ Onde <code>MEU_TOKEN_DE_ACESSO</code> é um token seguro gerado por você. Por e
 SecureRandom.urlsafe_base64(32)
 ```
 
-Em seguida, execute <code>rails s</code> para iniciar o servidor. Para fazer requisições para o servidor, é possível utilizar o arquivo http.requests.http junto com o [Rest client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client), ou utilizar um serviço como o [Postman](https://www.postman.com/).
+Em seguida, execute <code>rails s</code> para iniciar o servidor. Para fazer requisições para o servidor, é possível utilizar o arquivo <code>api_requests.http</code> junto com o [Rest client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client), ou utilizar um serviço como o [Postman](https://www.postman.com/).
 
 **********
 
