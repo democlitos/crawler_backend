@@ -26,7 +26,7 @@ class Quotes
 
     require 'open-uri'
 
-    doc = Nokogiri::HTML(URI.open(QUOTES_BASE_URI))
+    doc = Nokogiri::HTML(URI.open("#{QUOTES_BASE_URI}/tag/#{tag}/"))
     self.content = html_to_hash(doc)
   end
 
