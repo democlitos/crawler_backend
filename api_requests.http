@@ -3,4 +3,4 @@
 
 GET {{baseUrl}}/quotes/choices
 Content-Type: application/json
-Authorization: Token 0V93_5UdwLGZfS382WXeCzFQg0dTmZYmQoK50VGn8YQ
+Authorization: Token YOUR_TOKEN_HERE
